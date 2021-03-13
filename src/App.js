@@ -3,6 +3,42 @@ import Person from "./components/Person/Person";
 import PersonList from "./components/PersonList/PersonList";
 
 function App() {
+
+
+const leavers = [
+  {name:'Jaina' , scores: 122},
+  {name : 'Nurdan' , scores: 165},
+  {name : 'Sezim' , scores :160},
+  {name: 'Salavat' , scores : 97},
+  {name: 'Virsavia' , scores :161},
+  {name : 'Barsbek' , scores :95},
+  {name: 'Aida' , scores : 120},
+  {name: 'Nurgazy' , scores :87},
+  {name: 'Aidai' , scores :90},
+  {name: 'Temirlan' , scores :130},
+  {name: 'Chynara' , scores :145},
+  {name: 'Adis' , scores :160},
+  {name: 'Eliza' , scores :111},
+ {name: 'Nursultan' , scores :88}
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   const persons = [
     { name: "Elaman", role: "Teacher", wpm: 10, commits: 100 },
     { name: "Choro", role: "Assistant", wpm: 78, commits: 10401 },
