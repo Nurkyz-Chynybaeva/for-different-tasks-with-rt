@@ -1,7 +1,8 @@
 
 import Leaver from "./components/Leaver/Leaver"
+import LeaverList from "./components/LeaverList/LeaverList";
 import Person from "./components/Person/Person";
-// import PersonList from "./components/PersonList/PersonList";
+import PersonList from "./components/PersonList/PersonList";
 
 function App() {
 
@@ -67,11 +68,11 @@ function App() {
   const output = persons.map(person => <Person {...person} />);
   return (
     <div className="App">
+<LeaverList leavers = {leavers} />
+      {/* {output2}
+      {output} */}
 
-      {output2}
-      {output}
-
-      {/* <PersonList persons={persons} /> */}
+      <PersonList persons={persons} />
 
     </div>
   );

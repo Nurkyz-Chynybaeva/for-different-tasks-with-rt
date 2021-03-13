@@ -1,8 +1,9 @@
 .Leaver {
-  flex: 1 0 200px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  flex: 1 0 100px;
+  box-shadow: 0 0 10px rgba(5, 133, 192, 0.5);
   margin: 15px;
   padding: 15px;
   padding-top: 10px;
   border-radius: 15px;
+  color :rgb(1, 24, 92);
 }
