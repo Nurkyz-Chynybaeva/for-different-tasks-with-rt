@@ -1,6 +1,6 @@
 import Person from "./components/Person/Person";
 
-// import PersonList from "./components/PersonList/PersonList";
+import PersonList from "./components/PersonList/PersonList";
 
 function App() {
   const persons = [
@@ -34,8 +34,8 @@ function App() {
 
 
       {output}
-      {/* 
-      <PersonList persons={persons}/> */}
+      
+      <PersonList persons={persons}/>
 
     </div>
   );
