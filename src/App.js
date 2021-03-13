@@ -1,6 +1,7 @@
-import Person from "./components/Person/Person";
 
-import PersonList from "./components/PersonList/PersonList";
+import Leaver from "./components/Leaver/Leaver"
+import Person from "./components/Person/Person";
+// import PersonList from "./components/PersonList/PersonList";
 
 function App() {
 
@@ -67,10 +68,10 @@ function App() {
   return (
     <div className="App">
 
-
+      {output2}
       {output}
 
-      <PersonList persons={persons} />
+      {/* <PersonList persons={persons} /> */}
 
     </div>
   );
