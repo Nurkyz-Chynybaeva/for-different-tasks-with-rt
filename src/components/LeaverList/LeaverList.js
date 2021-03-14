@@ -6,6 +6,8 @@ const LeaverList = ({leavers}) => {
 <div className ={classes.LeaverList}>
   {leavers.map(leaver => <Leaver {...leaver} />)}
 
+{leavers.filter(item => item.scores >= 160) .map(leaver => <Leaver {...leaver}/>)};
+
 </div>
 
   )
