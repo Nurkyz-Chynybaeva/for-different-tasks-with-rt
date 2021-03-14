@@ -1,7 +1,7 @@
 import classes from "./Leaver.module.css";
 
 
-const Leaver = ({name, scores}) => {
+const Leaver = ({name, scores, }) => {
   return (
     <div className = {classes.Leaver} >
       <h2 className = {classes.name}>{name}</h2>

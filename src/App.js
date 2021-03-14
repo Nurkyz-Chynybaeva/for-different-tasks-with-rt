@@ -51,7 +51,7 @@ function App() {
     { name: "Baitemir", role: "Student", wpm: 35, commits: 556 },
     { name: "Yntymak", role: "Student", wpm: 40, commits: 55 },
     { name: "Tamara", role: "Student", wpm: 32, commits: 999 },
-    { name: "Nurkyz", role: "Student", wpm: 39, commits: 26 },
+    { name: "Nurkyz", role: "Student", wpm: 39, commits: 26, img:"https://avatars.githubusercontent.com/u/75364428?s=460&u=7598357a919d059b77d53b1b6fff021ba8d86522&v=4 " },
     { name: "Kunduz", role: "Student", wpm: 38, commits: 99 },
     { name: "Adis", role: "Student", wpm: 39, commits: 56 },
     { name: "Islam", role: "Student", wpm: 20, commits: 25 },
